@@ -1,10 +1,10 @@
-from htmlgen import nil 
+from htmlgen import nil
 
 const commentWidget = """
 <script src="https://utteranc.es/client.js"
-        repo="demotomohiro/netlify-nim-test"
+        repo="sergiosouzalima/forked-netlify-nim-test"
         issue-term="title"
-        theme="github-light"
+        theme="github-dark"
         crossorigin="anonymous"
         async>
 </script>
@@ -20,11 +20,11 @@ const html = (
               htmlgen.title("Use Nim on Netlify")),
             htmlgen.body(
               htmlgen.h1("Use Nim on Netlify"),
-              htmlgen.div("This is minimum example web site created with Nim language on Netlify."),
+              htmlgen.div("This is a minimum example web site created with Nim language on Netlify."),
               htmlgen.ul(
                 htmlgen.li(
                   htmlgen.a(
-                    href="https://github.com/demotomohiro/netlify-nim-test",
+                    href="https://github.com/sergiosouzalima/forked-netlify-nim-test",
                     "Repository of this page")),
                 htmlgen.li(
                   htmlgen.a(href="https://nim-lang.org/", "Nim")),

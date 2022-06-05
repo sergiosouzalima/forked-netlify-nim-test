@@ -1,10 +1,12 @@
-# netlify-nim-test
+# nim-first-website
 Minimum example of using Nim language on Netlify.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cc03b0e4-abff-47f1-99f3-0fc806270d36/deploy-status)](https://app.netlify.com/sites/spontaneous-licorice-9893bb/deploys)
+[Forked from demotomohiro/netlify-nim-test repository](https://github.com/demotomohiro/netlify-nim-test)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc03b0e4-abff-47f1-99f3-0fc806270d36/deploy-status)](https://app.netlify.com/sites/nim-first-website/deploys)
 
 
-[Web page generated from this repository](https://use-nim-on.netlify.com/)
+[Web page generated from this repository](https://nim-first-website.netlify.com/)
 
 ## How to use
 * Fork or copy this repository
