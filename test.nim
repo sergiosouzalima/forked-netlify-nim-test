@@ -1,17 +1,5 @@
 from htmlgen import nil
 
-const commentWidget = """
-<script src="https://utteranc.es/client.js"
-        repo="sergiosouzalima/forked-netlify-nim-test"
-        issue-term="url"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-"""
-  ## A lightweight comments widget built on GitHub issues
-  ## https://utteranc.es/
-
 const html = (
           "<!DOCTYPE html>\n" &
           htmlgen.html(
@@ -29,7 +17,6 @@ const html = (
                 htmlgen.li(
                   htmlgen.a(href="https://nim-lang.org/", "Nim")),
                 htmlgen.li(
-                  htmlgen.a(href="https://www.netlify.com/", "Netlify"))),
-                commentWidget)))
+                  htmlgen.a(href="https://www.netlify.com/", "Netlify"))))))
 
 writefile "public/index.html", html
