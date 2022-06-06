@@ -8,9 +8,8 @@ const html = (
               htmlgen.title("Use Nim on Netlify")),
             htmlgen.body(
               htmlgen.h1("Use Nim on Netlify"),
-              htmlgen.div("This is a minimum example web site created with Nim language on Netlify."),
-              htmlgen.h2("This web site was made with Nim version"),
-              htmlgen.h3($NimVersion & "." & $NimMajor & "." & $NimMinor & "." & $NimPatch),
+              htmlgen.h2("This is a minimum example web site created with Nim language on Netlify."),
+              htmlgen.h3("Made with Nim version " & $NimVersion),
               htmlgen.ul(
                 htmlgen.li(
                   htmlgen.a(
