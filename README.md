@@ -1,12 +1,9 @@
 # nim-first-website
-Minimum example of using Nim language on Netlify.
+Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netlify-nim-test repository](https://github.com/demotomohiro/netlify-nim-test)
 
-[Forked from demotomohiro/netlify-nim-test repository](https://github.com/demotomohiro/netlify-nim-test)
+[Visit the web page generated from this repository](https://nim-first-website.netlify.com/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cc03b0e4-abff-47f1-99f3-0fc806270d36/deploy-status)](https://app.netlify.com/sites/nim-first-website/deploys)
-
-
-[Web page generated from this repository](https://nim-first-website.netlify.com/)
 
 ## How to use
 * Fork or copy this repository
