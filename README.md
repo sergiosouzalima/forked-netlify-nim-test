@@ -13,8 +13,8 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
 * Click "Deploy site"
 
 ## How it works
-- Everytime you do ``git push`` to your repository, Netlify:
-  - clones your repository
+- Everytime you do ``git push`` to your Git repository, Netlify:
+  - clones your repo
   - executes build command and
   - makes files under public directory accessible from the internet.
 - ``build.sh``:
