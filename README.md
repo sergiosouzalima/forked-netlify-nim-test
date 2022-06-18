@@ -19,9 +19,10 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
   - makes files under public directory accessible from the internet.
 - ``build.sh``:
   - is the build command executed by Netlify.
-  - When ``build.sh`` is executed, it:
-    - calls ``install_nim_check`` that downloads Nim source code and
-    - builds it so that you can use Nim compiler.
+  - When ``build.sh`` is executed, it calls ``install_nim_check`` that:
+    - check if a new Nim version is needed. Is this case:
+      - downloads Nim source code and
+      - builds it so that you can use a new Nim compiler version.
 - Next time you do ``git push`` to your repo, Nim compiler will build on previous time it was used.
 - When you specify newer version of Nim in ``build.sh``:
   - old Nim compiler will be removed
