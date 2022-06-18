@@ -17,7 +17,7 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
   - clones your repository
   - executes build command and
   - makes files under public directory accessible from the internet.
-- ``build.sh`:
+- ``build.sh``:
   - is the build command executed by Netlify.
   - When ``build.sh`` is executed, it:
     - calls ``install_nim_check`` that downloads Nim source code and
