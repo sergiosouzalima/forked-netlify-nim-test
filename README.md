@@ -13,7 +13,10 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
 * Click "Deploy site"
 
 ## How it works
-* Everytime you do git push to your repository, Netlify clones your repository, executes build command and makes files under public directory accessible from internet.
+- Everytime you do ``git push`` to your repository, Netlify:
+  - clones your repository
+  - executes build command and
+  - makes files under public directory accessible from internet.
 * ``bash build.sh`` is the build command executed by Netlify.
 * build.sh calls ``install_nim_check`` that downloads Nim source code and builds it so that you can use Nim compiler.
 * Next time you do ``git push`` to your repo, Nim compiler will build on previous time it was used.
