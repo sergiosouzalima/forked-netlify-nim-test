@@ -25,5 +25,3 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
       - builds it, so that you can use a new Nim compiler version.
       - Old Nim source code will be removed.
     - compiles & executes mainapp.nim
-
-
