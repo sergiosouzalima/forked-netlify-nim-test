@@ -6,11 +6,12 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cc03b0e4-abff-47f1-99f3-0fc806270d36/deploy-status)](https://app.netlify.com/sites/nim-first-website/deploys)
 
 ## How to use
-* Fork or copy this repository
-* Login to Netlify
-* Click "New site from Git" botton
-* Select the repository you forked or copied.
-* Click "Deploy site"
+* Fork or copy this repository.
+* Based on this repository, create and push your own repo to Github.
+* Login to Netlify.
+* Click "New site from Git" botton.
+* Select the repository you created.
+* Click "Deploy site".
 
 ## How it works
 - Everytime you do ``git push`` to your Git repository, Netlify:
