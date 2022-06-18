@@ -22,8 +22,5 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
   - When ``build.sh`` is executed, it calls ``install_nim_check`` that:
     - check if a new Nim version is needed. Is this case:
       - downloads Nim source code and
-      - builds it so that you can use a new Nim compiler version.
-- Next time you do ``git push`` to your repo, Nim compiler will build on previous time it was used.
-- When you specify newer version of Nim in ``build.sh``:
-  - old Nim compiler will be removed
-  - new Nim source code will be downloaded and built.
+      - builds it, so that you can use a new Nim compiler version.
+      - old Nim source code will be removed.
