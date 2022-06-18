@@ -23,4 +23,4 @@ Minimum example of using Nim language on Netlify. [Forked from demotomohiro/netl
     - checks if a new Nim version is needed. Is this case:
       - downloads Nim source code and
       - builds it, so that you can use a new Nim compiler version.
-      - old Nim source code will be removed.
+      - Old Nim source code will be removed.
